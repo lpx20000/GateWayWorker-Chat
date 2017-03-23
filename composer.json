@@ -1,0 +1,14 @@
+{
+    "require": {
+        "workerman/gateway-worker": "^3.0",
+        "workerman/mysql": "^1.0"
+    },
+    "autoload": {
+        "classmap":[
+            "Applications/"
+        ],
+        "psr-4": {
+            "Applications\\": "applications/"
+        }
+    }
+}
